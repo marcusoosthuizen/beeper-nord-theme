@@ -1,0 +1,76 @@
+/*
+# Custom Beeper.app style
+This file will be injected as a <style> tag
+After making your changes, type "Reload custom CSS" in the command bar
+To open dev tools, open the command bar and type "open console"
+*/
+
+/*
+Made by Marcus Oosthuizen. Didn't put too much effort into this so theres probably some stuff that isn't styled properly. Mah bad
+*/
+
+html.is-not-mac {
+  --font-family: "Lexend", system-ui, "Segoe UI", Roboto, "Apple Color Emoji", TwemojiFlags, "Segoe UI Emoji", "Segoe UI Symbol", Twemoji, sans-serif, "Noto Color Emoji";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    
+    
+    
+    
+    --color-container-inside-secondary-container: #2A2A2A;
+   
+    --color-surface-bright: #262626;
+    
+    
+    --color-outline-variant: #12307d;
+    --color-solids-purple: #6A4BE5;
+    --color-gradient: #1a73e8;
+    --color-scrim: #00000085;
+    --color-glass-surface: #00000060;
+    --color-glass-container: #00000020;
+    --color-mute: #b48ead;
+    --color-highlight-reaction: #1B43AA;
+    
+    --color-primary: #8fbcbb;
+    --color-base-black: #2e3440;
+    --color-tertiary-container: #3b4252;
+    --color-primary-container: #3b4252;
+    --color-container-content-base-1: var(--color-base-white);
+    --color-secondary-container: #434c5e;
+    --color-on-surface: var(--color-base-white);
+    --color-outline: #434c5e;
+    --color-on-surface-variant: #d8dee9;
+    --error-color: #bf616a;
+    --warning-color: #d08770;
+    --color-backing-shade: #4c566a;
+    --color-base-gray-10: #2e3440;
+    --color-base-gray-20: #2e3440;
+    --color-base-gray-30: #434c5e;
+    --color-base-gray-40: #434c5e;
+    --color-base-gray-60: #434c5e;
+    --color-base-gray-80: #434c5e;
+    --color-base-gray-100: #d8dee9;
+  }
+  .BrandReplyLineSegment-module__container {
+      color: var(--color-base-white);
+  }
+  .emoji-mart-dark {
+      background-color: #3b4252;
+  }
+  .emoji-mart-dark .emoji-mart-category-label span {
+      background-color: #3b4252;
+  }
+  .emoji-mart-dark .emoji-mart-search input {
+      background-color: #434c5e;
+      border-color: #4c566a;
+  }
+  .emoji-mart-anchor-selected {
+      color: #b48ead !important;
+  }
+  .emoji-mart-anchor-bar {
+      background-color: #b48ead !important;
+  }
+}
+
